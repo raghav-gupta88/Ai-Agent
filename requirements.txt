@@ -1,4 +1,4 @@
-git+https://github.com/joaomdmoura/crewai.git
-git+https://github.com/joaomdmoura/crewai-tools.git
+git+https://github.com/joaomdmoura/crewai.git#egg=crewai
+git+https://github.com/joaomdmoura/crewai-tools.git#egg=crewai-tools
 python-dotenv
 streamlit
