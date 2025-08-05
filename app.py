@@ -9,17 +9,10 @@ load_dotenv()
 topic = "Medical Industry using generative AI"
 
 #Tool 1
-from crewai import LLM
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-
 llm = LLM(
     model="openrouter/mistralai/mistral-7b-instruct",  
     api_key=os.getenv("OPENROUTER_API_KEY"),
 )
-
 
 #Tool 2
 serper = SerperDevTool(n = 10)
