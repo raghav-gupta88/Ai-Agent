@@ -1,0 +1,13 @@
+python -m venv .venv
+.venv/scripts/activate
+python.exe -m pip install --upgrade pip
+ pip install git+https://github.com/joaomdmoura/crewAI.git
+ pip install git+https://github.com/joaomdmoura/crewai-tools.git
+ pip install crewai crewai-tools python-dotenv google-generativeai
+ pip install --upgrade crewai
+ pip install -U litellm
+ pip install crewai python-dotenv
+ pip install streamlit 
+
+ python app.py
+ streamlit run streamlit_app.py
